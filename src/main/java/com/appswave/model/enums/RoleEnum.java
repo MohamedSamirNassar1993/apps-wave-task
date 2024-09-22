@@ -1,4 +1,4 @@
-package com.appswave.model.entity;
+package com.appswave.model.enums;
 
 public enum RoleEnum {
   NORMAL,

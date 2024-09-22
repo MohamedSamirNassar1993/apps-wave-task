@@ -5,10 +5,14 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@Setter
-@Getter
+
 @AllArgsConstructor
 @NoArgsConstructor
-public class MessageResponse {
-	private String message;
+@Getter
+@Setter
+public class UserResponse {
+
+	private String email;
+	private String token;
+	private String refreshToken;
 }

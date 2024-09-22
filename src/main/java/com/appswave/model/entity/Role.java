@@ -1,5 +1,6 @@
 package com.appswave.model.entity;
 
+import com.appswave.model.enums.RoleEnum;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
